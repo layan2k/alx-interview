@@ -24,4 +24,3 @@ def pascal_triangle(n):
                 elif(j == i):
                     a[i].append(1)
         return a
-
