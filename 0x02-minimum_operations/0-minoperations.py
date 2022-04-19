@@ -3,6 +3,7 @@
 Calculates the fewest number of operations needed to result in exactly n H
 """
 
+
 def minOperations(n):
     """
     Returns an interger
