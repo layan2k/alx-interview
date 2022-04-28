@@ -28,7 +28,7 @@ if __name__ == '__main__':
                 size += int(info[-1])
                 if info[-2] in codes.keys():
                     codes[info[-2]] += 1
-            except:
+            except Exception:
                 pass
             if not i % 10:
                 print_info()
